@@ -1,0 +1,54 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Sep 26, 2024, 8:44:08 AM
+    Author     : Acer Aspire 7
+*/
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.arrow-left {
+    left: 0;
+}
+
+.arrow-right {
+    right: 0;
+}
+
+.thumbnail {
+    cursor: pointer;
+}
+
+.imageforslideshow {
+    justify-content: center;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.product-image {
+    transition: opacity 0.3s ease-in-out;
+    opacity: 1;
+}
+
+.product-image.fade-out {
+    opacity: 0;
+}
+
+.product-image.fade-in {
+    opacity: 1;
+}

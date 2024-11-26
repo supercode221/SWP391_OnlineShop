@@ -1,0 +1,160 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package branch.minh.back_controller;
+
+import java.util.LinkedList;
+import java.util.List;
+
+/**
+ *
+ * @author Nguyễn Nhật Minh
+ */
+public class CustomDataProcessor {
+
+    class CustomObject extends Object {
+
+        int productID;
+        String productName;
+        String categoryName;
+        String productSize;
+        String productColor;
+        List<String> productTags;
+    }
+
+    public List<CusObject> getMyData() {
+
+        List<Object> list = new LinkedList<CustomObject>();
+
+        return list;
+    }
+
+}
+
+----- Classpath: ---------------------------------------------
+bootPath: nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/java.base/;nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/java.compiler/;nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/java.datatransfer/;nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/java.desktop/;nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/java.management/;nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/java.naming/;nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/java.prefs/;nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/java.security.jgss/;nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/java.xml/;nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/jdk.accessibility/;nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/jdk.attach/;nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/jdk.compiler/;nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/jdk.dynalink/;nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/jdk.httpserver/;nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/jdk.jartool/;nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/jdk.javadoc/;nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/jdk.jconsole/;nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/jdk.jdi/;nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/jdk.jfr/;nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/jdk.jshell/;nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/jdk.jsobject/;nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/jdk.management/;nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/jdk.management.jfr/;nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/jdk.net/;nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/jdk.nio.mapmode/;nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/jdk.sctp/;nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/jdk.security.auth/;nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/jdk.security.jgss/;nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/jdk.unsupported/;nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/jdk.unsupported.desktop/;nbjrt:file:/C:/Program%20Files/BellSoft/LibericaJDK-17/!/modules/jdk.xml.dom/
+classPath: C:\Users\lenovo\OneDrive\Desktop\tmp git folder\lib\javax.activation-1.2.0.jar;C:\Users\lenovo\OneDrive\Desktop\tmp git folder\lib\javax.mail.jar;C:\Users\lenovo\OneDrive\Desktop\tmp git folder\lib\mysql-connector-java-8.0.28.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\bin\tomcat-juli.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\annotations-api.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\catalina-ant.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\catalina-ha.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\catalina-ssi.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\catalina-storeconfig.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\catalina-tribes.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\catalina.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\ecj-4.27.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\el-api.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\jakartaee-migration-1.0.7-shaded.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\jasper-el.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\jasper.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\jaspic-api.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\jsp-api.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\servlet-api.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\tomcat-api.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\tomcat-coyote.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\tomcat-dbcp.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\tomcat-i18n-cs.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\tomcat-i18n-de.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\tomcat-i18n-es.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\tomcat-i18n-fr.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\tomcat-i18n-ja.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\tomcat-i18n-ko.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\tomcat-i18n-pt-BR.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\tomcat-i18n-ru.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\tomcat-i18n-zh-CN.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\tomcat-jdbc.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\tomcat-jni.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\tomcat-util-scan.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\tomcat-util.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\tomcat-websocket.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\websocket-api.jar;C:\Program Files\Apache Software Foundation\Tomcat 10.0\lib\websocket-client-api.jar
+sourcePath: C:\Users\lenovo\OneDrive\Desktop\tmp git folder\src\java
+----- Original exception ---------------------------------------------
+java.lang.IllegalStateException: java.lang.AssertionError: Analyzer error when processing: List<Object> list = new LinkedList<CustomObject>():java.lang.NullPointerException: Cannot invoke "com.sun.tools.javac.code.Type.isPartial()" because "s" is null
+com.sun.tools.javac.code.Types$5.visitClassType(Types.java:1402)
+com.sun.tools.javac.code.Types$5.visitClassType(Types.java:1354)
+com.sun.tools.javac.code.Type$ClassType.accept(Type.java:1013)
+com.sun.tools.javac.code.Types$DefaultTypeVisitor.visit(Types.java:4906)
+com.sun.tools.javac.code.Types.isSameType(Types.java:1346)
+com.sun.tools.javac.comp.Analyzer$DiamondInitializer.process(Analyzer.java:263)
+com.sun.tools.javac.comp.Analyzer$DiamondInitializer.process(Analyzer.java:223)
+com.sun.tools.javac.comp.Analyzer.doAnalysis(Analyzer.java:572)
+com.sun.tools.javac.comp.Analyzer$2.flush(Analyzer.java:542)
+com.sun.tools.javac.comp.Analyzer.flush(Analyzer.java:586)
+com.sun.tools.javac.main.JavaCompiler.flow(JavaCompiler.java:1383)
+com.sun.tools.javac.main.JavaCompiler.flow(JavaCompiler.java:1341)
+com.sun.tools.javac.api.JavacTaskImpl.analyze(JavacTaskImpl.java:404)
+com.sun.tools.javac.api.JavacTaskImpl.lambda$analyze$1(JavacTaskImpl.java:379)
+com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)
+com.sun.tools.javac.api.JavacTaskImpl.analyze(JavacTaskImpl.java:379)
+org.netbeans.modules.java.source.parsing.JavacParser.moveToPhase(JavacParser.java:770)
+org.netbeans.modules.java.source.parsing.CompilationInfoImpl.toPhase(CompilationInfoImpl.java:426)
+org.netbeans.api.java.source.CompilationController.toPhase(CompilationController.java:88)
+org.netbeans.modules.java.completion.JavaCompletionTask.getSmartTypes(JavaCompletionTask.java:5422)
+org.netbeans.modules.java.completion.JavaCompletionTask.insideParameterizedType(JavaCompletionTask.java:1449)
+org.netbeans.modules.java.completion.JavaCompletionTask.resolve(JavaCompletionTask.java:349)
+org.netbeans.modules.java.completion.BaseTask.run(BaseTask.java:94)
+org.netbeans.modules.java.completion.JavaCompletionTask.run(JavaCompletionTask.java:67)
+org.netbeans.modules.parsing.impl.TaskProcessor.callUserTask(TaskProcessor.java:586)
+org.netbeans.modules.parsing.api.ParserManager$UserTaskAction.run(ParserManager.java:132)
+org.netbeans.modules.parsing.api.ParserManager$UserTaskAction.run(ParserManager.java:116)
+org.netbeans.modules.parsing.impl.TaskProcessor$2.call(TaskProcessor.java:181)
+org.netbeans.modules.parsing.impl.TaskProcessor$2.call(TaskProcessor.java:178)
+org.netbeans.modules.masterfs.filebasedfs.utils.FileChangedManager.priorityIO(FileChangedManager.java:153)
+org.netbeans.modules.masterfs.providers.ProvidedExtensions.priorityIO(ProvidedExtensions.java:335)
+org.netbeans.modules.parsing.nb.DataObjectEnvFactory.runPriorityIO(DataObjectEnvFactory.java:118)
+org.netbeans.modules.parsing.impl.Utilities.runPriorityIO(Utilities.java:67)
+org.netbeans.modules.parsing.impl.TaskProcessor.runUserTask(TaskProcessor.java:178)
+org.netbeans.modules.parsing.api.ParserManager.parse(ParserManager.java:83)
+org.netbeans.modules.editor.java.JavaCompletionProvider$JavaCompletionQuery.query(JavaCompletionProvider.java:193)
+org.netbeans.spi.editor.completion.support.AsyncCompletionTask.run(AsyncCompletionTask.java:198)
+org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1418)
+org.netbeans.modules.openide.util.GlobalLookup.execute(GlobalLookup.java:45)
+org.openide.util.lookup.Lookups.executeWith(Lookups.java:287)
+org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+	at com.sun.tools.javac.api.JavacTaskImpl.analyze(JavacTaskImpl.java:383)
+	at org.netbeans.modules.java.source.parsing.JavacParser.moveToPhase(JavacParser.java:770)
+	at org.netbeans.modules.java.source.parsing.CompilationInfoImpl.toPhase(CompilationInfoImpl.java:426)
+	at org.netbeans.api.java.source.CompilationController.toPhase(CompilationController.java:88)
+	at org.netbeans.modules.java.completion.JavaCompletionTask.getSmartTypes(JavaCompletionTask.java:5422)
+	at org.netbeans.modules.java.completion.JavaCompletionTask.insideParameterizedType(JavaCompletionTask.java:1449)
+	at org.netbeans.modules.java.completion.JavaCompletionTask.resolve(JavaCompletionTask.java:349)
+	at org.netbeans.modules.java.completion.BaseTask.run(BaseTask.java:94)
+	at org.netbeans.modules.java.completion.JavaCompletionTask.run(JavaCompletionTask.java:67)
+	at org.netbeans.modules.parsing.impl.TaskProcessor.callUserTask(TaskProcessor.java:586)
+	at org.netbeans.modules.parsing.api.ParserManager$UserTaskAction.run(ParserManager.java:132)
+	at org.netbeans.modules.parsing.api.ParserManager$UserTaskAction.run(ParserManager.java:116)
+	at org.netbeans.modules.parsing.impl.TaskProcessor$2.call(TaskProcessor.java:181)
+	at org.netbeans.modules.parsing.impl.TaskProcessor$2.call(TaskProcessor.java:178)
+	at org.netbeans.modules.masterfs.filebasedfs.utils.FileChangedManager.priorityIO(FileChangedManager.java:153)
+	at org.netbeans.modules.masterfs.providers.ProvidedExtensions.priorityIO(ProvidedExtensions.java:335)
+	at org.netbeans.modules.parsing.nb.DataObjectEnvFactory.runPriorityIO(DataObjectEnvFactory.java:118)
+	at org.netbeans.modules.parsing.impl.Utilities.runPriorityIO(Utilities.java:67)
+	at org.netbeans.modules.parsing.impl.TaskProcessor.runUserTask(TaskProcessor.java:178)
+	at org.netbeans.modules.parsing.api.ParserManager.parse(ParserManager.java:83)
+	at org.netbeans.modules.editor.java.JavaCompletionProvider$JavaCompletionQuery.query(JavaCompletionProvider.java:193)
+	at org.netbeans.spi.editor.completion.support.AsyncCompletionTask.run(AsyncCompletionTask.java:198)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1418)
+	at org.netbeans.modules.openide.util.GlobalLookup.execute(GlobalLookup.java:45)
+	at org.openide.util.lookup.Lookups.executeWith(Lookups.java:287)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+Caused by: java.lang.AssertionError: Analyzer error when processing: List<Object> list = new LinkedList<CustomObject>():java.lang.NullPointerException: Cannot invoke "com.sun.tools.javac.code.Type.isPartial()" because "s" is null
+com.sun.tools.javac.code.Types$5.visitClassType(Types.java:1402)
+com.sun.tools.javac.code.Types$5.visitClassType(Types.java:1354)
+com.sun.tools.javac.code.Type$ClassType.accept(Type.java:1013)
+com.sun.tools.javac.code.Types$DefaultTypeVisitor.visit(Types.java:4906)
+com.sun.tools.javac.code.Types.isSameType(Types.java:1346)
+com.sun.tools.javac.comp.Analyzer$DiamondInitializer.process(Analyzer.java:263)
+com.sun.tools.javac.comp.Analyzer$DiamondInitializer.process(Analyzer.java:223)
+com.sun.tools.javac.comp.Analyzer.doAnalysis(Analyzer.java:572)
+com.sun.tools.javac.comp.Analyzer$2.flush(Analyzer.java:542)
+com.sun.tools.javac.comp.Analyzer.flush(Analyzer.java:586)
+com.sun.tools.javac.main.JavaCompiler.flow(JavaCompiler.java:1383)
+com.sun.tools.javac.main.JavaCompiler.flow(JavaCompiler.java:1341)
+com.sun.tools.javac.api.JavacTaskImpl.analyze(JavacTaskImpl.java:404)
+com.sun.tools.javac.api.JavacTaskImpl.lambda$analyze$1(JavacTaskImpl.java:379)
+com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)
+com.sun.tools.javac.api.JavacTaskImpl.analyze(JavacTaskImpl.java:379)
+org.netbeans.modules.java.source.parsing.JavacParser.moveToPhase(JavacParser.java:770)
+org.netbeans.modules.java.source.parsing.CompilationInfoImpl.toPhase(CompilationInfoImpl.java:426)
+org.netbeans.api.java.source.CompilationController.toPhase(CompilationController.java:88)
+org.netbeans.modules.java.completion.JavaCompletionTask.getSmartTypes(JavaCompletionTask.java:5422)
+org.netbeans.modules.java.completion.JavaCompletionTask.insideParameterizedType(JavaCompletionTask.java:1449)
+org.netbeans.modules.java.completion.JavaCompletionTask.resolve(JavaCompletionTask.java:349)
+org.netbeans.modules.java.completion.BaseTask.run(BaseTask.java:94)
+org.netbeans.modules.java.completion.JavaCompletionTask.run(JavaCompletionTask.java:67)
+org.netbeans.modules.parsing.impl.TaskProcessor.callUserTask(TaskProcessor.java:586)
+org.netbeans.modules.parsing.api.ParserManager$UserTaskAction.run(ParserManager.java:132)
+org.netbeans.modules.parsing.api.ParserManager$UserTaskAction.run(ParserManager.java:116)
+org.netbeans.modules.parsing.impl.TaskProcessor$2.call(TaskProcessor.java:181)
+org.netbeans.modules.parsing.impl.TaskProcessor$2.call(TaskProcessor.java:178)
+org.netbeans.modules.masterfs.filebasedfs.utils.FileChangedManager.priorityIO(FileChangedManager.java:153)
+org.netbeans.modules.masterfs.providers.ProvidedExtensions.priorityIO(ProvidedExtensions.java:335)
+org.netbeans.modules.parsing.nb.DataObjectEnvFactory.runPriorityIO(DataObjectEnvFactory.java:118)
+org.netbeans.modules.parsing.impl.Utilities.runPriorityIO(Utilities.java:67)
+org.netbeans.modules.parsing.impl.TaskProcessor.runUserTask(TaskProcessor.java:178)
+org.netbeans.modules.parsing.api.ParserManager.parse(ParserManager.java:83)
+org.netbeans.modules.editor.java.JavaCompletionProvider$JavaCompletionQuery.query(JavaCompletionProvider.java:193)
+org.netbeans.spi.editor.completion.support.AsyncCompletionTask.run(AsyncCompletionTask.java:198)
+org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1418)
+org.netbeans.modules.openide.util.GlobalLookup.execute(GlobalLookup.java:45)
+org.openide.util.lookup.Lookups.executeWith(Lookups.java:287)
+org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+	at com.sun.tools.javac.util.Assert.error(Assert.java:162)
+	at com.sun.tools.javac.comp.Analyzer.doAnalysis(Analyzer.java:574)
+	at com.sun.tools.javac.comp.Analyzer$2.flush(Analyzer.java:542)
+	at com.sun.tools.javac.comp.Analyzer.flush(Analyzer.java:586)
+	at com.sun.tools.javac.main.JavaCompiler.flow(JavaCompiler.java:1383)
+	at com.sun.tools.javac.main.JavaCompiler.flow(JavaCompiler.java:1341)
+	at com.sun.tools.javac.api.JavacTaskImpl.analyze(JavacTaskImpl.java:404)
+	at com.sun.tools.javac.api.JavacTaskImpl.lambda$analyze$1(JavacTaskImpl.java:379)
+	at com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)
+	at com.sun.tools.javac.api.JavacTaskImpl.analyze(JavacTaskImpl.java:379)
+	... 25 more

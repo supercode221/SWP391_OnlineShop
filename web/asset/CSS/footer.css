@@ -1,0 +1,75 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Sep 20, 2024, 5:17:43 PM
+    Author     : Acer Aspire 7
+*/
+
+/* Footer Styling */
+.footer {
+    background-color: #fff;
+    padding-top: 40px;
+    box-shadow: 0 0 10px #ccc;
+    margin-top: 30px;
+}
+
+.footer h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.footer p, .footer a {
+    color: #333;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #ff3366;
+}
+
+.footer .footer-section {
+    margin-bottom: 30px;
+}
+
+.footer .newsletter-signup input {
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    width: 80%;
+    border-radius: 3px;
+}
+
+.footer .newsletter-signup button {
+    padding: 8px 10px;
+    border: none;
+    background-color: #ff3366;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.footer-bottom {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.footer-bottom img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.footer-bottom .copyright {
+    display: inline-block;
+    margin-right: 30px;
+}

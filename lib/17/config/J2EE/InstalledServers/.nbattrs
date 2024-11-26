@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="instance">
+        <attr name="admin_port" stringvalue="-1"/>
+        <attr name="debug_type" stringvalue="SEL_debuggingType_shared"/>
+        <attr name="displayName" stringvalue="Apache Tomcat or TomEE"/>
+        <attr name="httpportnumber" stringvalue="9999"/>
+        <attr name="instance_id" stringvalue="tomcat101"/>
+        <attr name="java_platform" stringvalue="default_platform"/>
+        <attr name="monitor_enabled" stringvalue="false"/>
+        <attr name="registeredWithoutUI" stringvalue="false"/>
+        <attr name="runningCheckTimeout" stringvalue="2000"/>
+        <attr name="timestamp" stringvalue="1705418713116"/>
+        <attr name="url" stringvalue="tomcat101:home=C:\Program Files\Apache Software Foundation\Tomcat 10.0"/>
+        <attr name="username" stringvalue="sa"/>
+    </fileobject>
+    <fileobject name="instance_1">
+        <attr name="admin_port" stringvalue="-1"/>
+        <attr name="displayName" stringvalue="Apache Tomcat or TomEE (1)"/>
+        <attr name="httpportnumber" stringvalue="9999"/>
+        <attr name="instance_id" stringvalue="tomcat101"/>
+        <attr name="monitor_enabled" stringvalue="false"/>
+        <attr name="registeredWithoutUI" stringvalue="false"/>
+        <attr name="runningCheckTimeout" stringvalue="2000"/>
+        <attr name="url" stringvalue="tomcat101:home=C:\Users\lenovo\OneDrive\Desktop\tmp\lib\Tomcat 10.0"/>
+        <attr name="username" stringvalue="sa"/>
+    </fileobject>
+</attributes>

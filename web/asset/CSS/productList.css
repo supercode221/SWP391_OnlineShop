@@ -1,0 +1,232 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Sep 21, 2024, 12:11:25 AM
+    Author     : Acer Aspire 7
+*/
+
+/* General styles for header and main container */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.container-fluid {
+    padding-top: 20px;
+}
+
+.badge {
+    margin-right: 5px;
+}
+
+.card-title {
+    font-size: 1rem;
+    /*font-weight: bold;*/
+}
+
+/* Sidebar */
+.list-group-item {
+    border: none;
+    padding-left: 0;
+}
+
+.list-group-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.row-cols-1 .col {
+    margin-bottom: 20px;
+}
+
+.col-md-3 .filter {
+    padding-top: 7px;
+}
+
+.side-bar-title{
+    border-bottom: 1px solid #ccc;
+    /*height: 30px;*/
+}
+
+.side-bar-content-title{
+    margin-top: 10px;
+}
+
+.line {
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+/* Style checkboxes to have custom appearance */
+.custom-checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 1rem;         /* Reduced width */
+    height: 1rem;        /* Reduced height */
+    border: 1px solid #adb5bd;
+    border-radius: 0.25rem;
+    display: inline-block;
+    margin-right: 0.5rem;
+    position: relative;
+}
+
+.custom-checkbox:checked::before {
+    content: '\2713'; /* Checkmark symbol */
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1rem;         /* Match width */
+    height: 1rem;        /* Match height */
+    background-color: black; /* Checkbox checked background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;   /* Adjust font size for smaller checkmark */
+}
+
+.custom-checkbox:hover {
+    border-color: #0d6efd; /* Hover effect to match Bootstrap */
+}
+
+.card {
+    box-shadow: 0 0 1rem #ccc;
+    transition: transform 0.3s ease; /* Smooth transition for the scaling effect */
+}
+
+.card:hover {
+    transform: scale(1.1); /* Scale the card to 1.2 times its original size on hover */
+    z-index: 1; /* Ensures the hovered card appears above others */
+}
+
+.filter-btn {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none; /* No border initially */
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+    border-radius: 5px;
+}
+
+.filter-btn i {
+    color: white;
+}
+
+.filter-btn:hover{
+    background-color: white;
+    color: black;
+    box-shadow: inset 0 0 0 2px black; /* Inner border effect */
+}
+
+.filter-btn i:hover {
+    color: black;
+}
+
+.category-filter-btn {
+    padding: 10px;
+    color: white;
+    border: none; /* No border initially */
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+    border-radius: 5px;
+}
+
+.category-filter-btn:hover{
+    background-color: white !important;
+    color: black;
+    box-shadow: inset 0 0 0 2px black; /* Inner border effect */
+}
+
+#doFilterBtn {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out, 0.2s ease-in-out; /* Thêm hiệu ứng chuyển tiếp cho padding */
+    display: none; /* Ban đầu ẩn */
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border: none; /* Không có viền ban đầu */
+}
+
+#doFilterBtn.show {
+    display: block; /* Hiển thị */
+    opacity: 1; /* Hiện đầy đủ */
+}
+
+#doFilterBtn:hover {
+    background-color: white;
+    color: black;
+    box-shadow: inset 0 0 0 1px black; /* Hiệu ứng viền bên trong */
+}
+
+.image-container {
+    width: 100%;
+    height: 300px; /* Set a fixed height for the image container */
+    overflow: hidden; /* Ensures larger images are cropped */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    object-fit: cover; /* Ensures the image fits inside the container without stretching */
+    width: 100%; /* Ensures the image scales properly */
+    height: 100%;
+}
+
+/* Fix product name height */
+.product-name {
+    max-height: 40px; /* Adjust this value as needed */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Adds "..." if the text is too long */
+    white-space: nowrap;
+}
+
+/* Ensure the card has a consistent height */
+.card-body {
+    /*    flex-grow: 1;
+        display: flex;
+        flex-direction: column;*/
+}
+
+.card-text {
+    margin-bottom: 0.5rem;
+}
+
+.card {
+    position: relative;
+    overflow: hidden; /* Đảm bảo các thẻ không vượt ra khỏi khung chứa */
+}
+
+.badge-container {
+    display: flex;
+    white-space: nowrap;
+    animation: scroll 3s linear infinite; /* Hiệu ứng cuộn vô hạn */
+    padding: 10px 0;
+}
+
+.main-badge {
+    display: flex;
+    gap: 10px; /* Khoảng cách giữa các thẻ */
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(110%); /* Bắt đầu từ ngoài màn hình bên phải */
+    }
+    100% {
+        transform: translateX(-160%); /* Di chuyển hoàn toàn ra ngoài bên trái */
+    }
+}
+
+/*.badge:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.badge:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.badge:nth-child(3) {
+    animation-delay: 0.3s;
+}*/

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="C:|Users|lenovo|AppData|Local|NetBeans|Cache|17|index|s315|java|15|gensrc|com|azlagor|LiteFish|Commands.java">
+        <attr name="classfile-binaryName" stringvalue="com/azlagor/LiteFish/Commands"/>
+        <attr name="classfile-root" urlvalue="jar:file:/D:/Download/LiteFish-2.3.8%20(1).jar!/"/>
+        <attr name="classfile-sourcefile" stringvalue="Commands.java"/>
+        <attr name="disable-java-errors" boolvalue="true"/>
+        <attr name="origin-hash" stringvalue="4A7E2F2BE9F8483286BC95D77474F752"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|AppData|Local|NetBeans|Cache|17|index|s315|java|15|gensrc|com|azlagor|LiteFish|LiteFish.java">
+        <attr name="classfile-binaryName" stringvalue="com/azlagor/LiteFish/LiteFish"/>
+        <attr name="classfile-root" urlvalue="jar:file:/D:/Download/LiteFish-2.3.8%20(1).jar!/"/>
+        <attr name="classfile-sourcefile" stringvalue="LiteFish.java"/>
+        <attr name="disable-java-errors" boolvalue="true"/>
+        <attr name="origin-hash" stringvalue="6FCBE1594D36AF5FBFD5F7E2272D0A9A"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|AppData|Local|NetBeans|Cache|17|mavencachedirs|1163589870|org-netbeans-modules-profiler">
+        <attr name="settingsFor" urlvalue="file:/C:/Users/lenovo/OneDrive/Desktop/MailSender/MailSender/"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|AppData|Local|NetBeans|Cache|17|mavencachedirs|241835791|org-netbeans-modules-profiler">
+        <attr name="settingsFor" urlvalue="file:/D:/Project/testGoogleLogin/"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|AppData|Local|NetBeans|Cache|17|mavencachedirs|480191788|org-netbeans-modules-profiler">
+        <attr name="settingsFor" urlvalue="file:/D:/Project/CombineProfit/"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|AppData|Local|NetBeans|Cache|17|remotefiles|10d036f06335bcb17aa375bd2db98b6b.js">
+        <attr name="remote.url" stringvalue="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|AppData|Local|NetBeans|Cache|17|remotefiles|33911cf093ad82c7865790b0dc7c614b.js">
+        <attr name="remote.url" stringvalue="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|AppData|Local|NetBeans|Cache|17|remotefiles|44c0d5164f8f786ab64629c2529e490e.js">
+        <attr name="remote.url" stringvalue="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|AppData|Local|NetBeans|Cache|17|remotefiles|541eee6c7941b6e487baa7cce0f7c8df.css">
+        <attr name="remote.url" stringvalue="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|AppData|Local|NetBeans|Cache|17|remotefiles|581fe75bbdfc0b7225c538b93a7cf8f7.css">
+        <attr name="remote.url" stringvalue="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|AppData|Local|NetBeans|Cache|17|remotefiles|5ad361b51479cea00703db7702a6ec1e.js">
+        <attr name="remote.url" stringvalue="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|AppData|Local|NetBeans|Cache|17|remotefiles|6b7a626f9964795cdaf9b5b5b9f1119d.js">
+        <attr name="remote.url" stringvalue="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|AppData|Local|NetBeans|Cache|17|remotefiles|6c8b5e35271788276def9e07a075c259.css">
+        <attr name="remote.url" stringvalue="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|AppData|Local|NetBeans|Cache|17|remotefiles|7b53a2dc7f10f346a0876c6cacc346be.js">
+        <attr name="remote.url" stringvalue="https://code.jquery.com/jquery-3.5.1.min.js"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|AppData|Local|NetBeans|Cache|17|remotefiles|8b0ac3519933c6f2a5aace579f0f96c7.js">
+        <attr name="remote.url" stringvalue="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|AppData|Local|NetBeans|Cache|17|remotefiles|cff276076075408b2a3fcb2054648bee.css">
+        <attr name="remote.url" stringvalue="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|AppData|Local|NetBeans|Cache|17|remotefiles|d5303523bf7c5f095ddbdcf9e7928468.css">
+        <attr name="remote.url" stringvalue="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|AppData|Local|NetBeans|Cache|17|remotefiles|de1975104996dafce0529bbc0cda6211.css">
+        <attr name="remote.url" stringvalue="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|OneDrive|Desktop|MyProject|src|java|constant|constant.java">
+        <attr name="originalFile" stringvalue="constant.java"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|OneDrive|Desktop|MyProject|src|java|dal|DBContext.java">
+        <attr name="originalFile" stringvalue="DBContext.java"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|OneDrive|Desktop|MyProject|src|java|entity|GoogleUserDto.java">
+        <attr name="originalFile" stringvalue="GoogleUserDto.java"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|OneDrive|Desktop|MyProject|src|java|entity|Users.java">
+        <attr name="originalFile" stringvalue="Users.java"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|OneDrive|Desktop|MyProject|src|java|processor|ImageUtils|ImageUtils.java">
+        <attr name="originalFile" stringvalue="ImageUtils.java"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|OneDrive|Desktop|MyProject|src|java|processor|captcha|Captcha.java">
+        <attr name="originalFile" stringvalue="Captcha.java"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|OneDrive|Desktop|MyProject|src|java|processor|captcha|CaptchaNumberGenerator.java">
+        <attr name="originalFile" stringvalue="CaptchaNumberGenerator.java"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|OneDrive|Desktop|MyProject|src|java|processor|captcha|GeneratedCaptcha.java">
+        <attr name="originalFile" stringvalue="GeneratedCaptcha.java"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|OneDrive|Desktop|MyProject|src|java|processor|captcha|config|Config.java">
+        <attr name="originalFile" stringvalue="Config.java"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|OneDrive|Desktop|MyProject|src|java|processor|captcha|exception|FontLoadException.java">
+        <attr name="originalFile" stringvalue="FontLoadException.java"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|OneDrive|Desktop|project|src|java|control|captcha|Captcha.java">
+        <attr name="originalFile" stringvalue="Captcha.java"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|OneDrive|Desktop|test|Test|src|java|control|captcha|Captcha.java">
+        <attr name="originalFile" stringvalue="Captcha.java"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|OneDrive|Desktop|test|Test|src|java|control|captcha|CaptchaNumberGenerator.java">
+        <attr name="originalFile" stringvalue="CaptchaNumberGenerator.java"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|OneDrive|Desktop|test|Test|src|java|control|captcha|GeneratedCaptcha.java">
+        <attr name="originalFile" stringvalue="GeneratedCaptcha.java"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|OneDrive|Desktop|test|Test|src|java|control|captcha|ImageUtils.java">
+        <attr name="originalFile" stringvalue="ImageUtils.java"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|OneDrive|Desktop|test|Test|src|java|control|captcha|config|Config.java">
+        <attr name="originalFile" stringvalue="Config.java"/>
+    </fileobject>
+    <fileobject name="C:|Users|lenovo|OneDrive|Desktop|test|Test|src|java|control|captcha|exception|FontLoadException.java">
+        <attr name="originalFile" stringvalue="FontLoadException.java"/>
+    </fileobject>
+    <fileobject name="D:|Project|CombineProfit">
+        <attr name="AuxilaryConfiguration" stringvalue="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>\u000d\u000a&lt;project-private>\u000d\u000a    &lt;editor-bookmarks xmlns=&quot;http://www.netbeans.org/ns/editor-bookmarks/2&quot; lastBookmarkId=&quot;0&quot;/>\u000d\u000a    &lt;open-files xmlns=&quot;http://www.netbeans.org/ns/projectui-open-files/2&quot;>\u000d\u000a        &lt;group/>\u000d\u000a    &lt;/open-files>\u000d\u000a&lt;/project-private>\u000d\u000a"/>
+    </fileobject>
+    <fileobject name="D:|Project|testGoogleLogin">
+        <attr name="AuxilaryConfiguration" stringvalue="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>\u000d\u000a&lt;project-private>\u000d\u000a    &lt;properties xmlns=&quot;http://www.netbeans.org/ns/maven-properties-data/1&quot;>\u000d\u000a        &lt;org-netbeans-modules-maven-j2ee.netbeans_2e_deployment_2e_server_2e_id>tomcat101:home=C:\Program Files\Apache Software Foundation\Tomcat 10.0&lt;/org-netbeans-modules-maven-j2ee.netbeans_2e_deployment_2e_server_2e_id>\u000d\u000a    &lt;/properties>\u000d\u000a    &lt;editor-bookmarks xmlns=&quot;http://www.netbeans.org/ns/editor-bookmarks/2&quot; lastBookmarkId=&quot;0&quot;/>\u000d\u000a    &lt;open-files xmlns=&quot;http://www.netbeans.org/ns/projectui-open-files/2&quot;>\u000d\u000a        &lt;group/>\u000d\u000a    &lt;/open-files>\u000d\u000a&lt;/project-private>\u000d\u000a"/>
+    </fileobject>
+</attributes>
