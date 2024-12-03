@@ -17,13 +17,16 @@ This project were made by me and my friends, we are in a group of SWP391 subject
 
 ## Description
 
-#### There are 5 actors participated in our system:
+#### There are 8 actors participated in our system:
 
 - Guest: unregistered users.
 - Customer: registered users who can purchase items online - and have them shipped to home.
-- Sellers: registered users who sell their products to the  customers.
- -Shippers: registered users who act as intermediaries   between sellers and customers: receive products from sellers and deliver them to customers.
-Admin: the organization leader/manager, acts as the system administrator.
+- Marketing staffs: Who can track the Marketing things like advertise, slider, product, ...
+- Sale staffs: Who can view customers assigned, track bills status, ...
+- Marketing manager: Who can view staff behind the manager, view statistical information.
+- Sale manager: Who can view staff behind the manager, view statistical information.
+- Shippers: registered users who act as intermediaries customers: receive products from shop and deliver them to customers.
+- Admin: the organization leader/manager, acts as the system administrator.
 
 #### Tech stack used:
 
